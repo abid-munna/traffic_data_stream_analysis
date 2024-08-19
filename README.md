@@ -1,8 +1,8 @@
 ## Traffic Data Streame Analysis 
 Take a look into spark structure streaming that can connect to Kafka and process its messages, 
-**how to populate, consume, and process Kafka topics using Spark jobs. 
-**Different output modes, something specific to stream applications, and how each one can be used.
-**Aggregations with time windows, one of the main capabilities of stream processing.
+- **how to populate, consume, and process Kafka topics using Spark jobs. 
+- **Different output modes, something specific to stream applications, and how each one can be used.
+- **Aggregations with time windows, one of the main capabilities of stream processing.
 
 ### Run a container to execute bash commands inside it 
 ```bash
