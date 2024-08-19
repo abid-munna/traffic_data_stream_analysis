@@ -18,7 +18,9 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 --topic test_topic -
 cd /src
 ### Convert the jsons into parquet file
 # Unprotect the folder
-sudo chmod -R 777 data/ ```
+sudo chmod -R 777 data/ 
+
+```
 
 
 ```bash
@@ -38,7 +40,7 @@ kafka-topics.sh --create --replication-factor 1 --bootstrap-server localhost:909
 kafka-console-consumer.sh --topic traffic_sensor --bootstrap-server localhost:9092
 ```
 
-### Run Other Scripts to console the differnt grouping in spark structured streaming
+### Run Other Scripts to submit spark grouping to see the spark structured streaming using windowing
 
 ```bash
 ### Test write
