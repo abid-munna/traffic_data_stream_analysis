@@ -63,7 +63,9 @@ spark-submit --deploy-mode client --master spark://spark:7077 --driver-memory 2G
 
 ### Setup traffic_sensor topic
 ```
-### Inside the kafka container :
+
+### Run Other Scripts to submit spark grouping to see the spark structured streaming using windowing
+#### Inside the kafka container :
 #### traffic_sensor_topic
 ```bash
 kafka-topics.sh --create --replication-factor 1 --bootstrap-server localhost:9092 --topic traffic_sensor
@@ -71,7 +73,6 @@ kafka-topics.sh --create --replication-factor 1 --bootstrap-server localhost:909
 kafka-console-consumer.sh --topic traffic_sensor --bootstrap-server localhost:9092
 ```
 
-### Run Other Scripts to submit spark grouping to see the spark structured streaming using windowing
 
 ```bash
 ### Test write
