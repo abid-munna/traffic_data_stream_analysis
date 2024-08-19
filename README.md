@@ -20,7 +20,7 @@ This project includes:
 - Understanding different output modes specific to streaming applications and how each can be used.
 - Performing aggregations with time windows, a key capability of stream processing.
 
-## Run a Container and Execute Bash Commands
+## run-a-container-and-execute-bash-commands
 
 To start the containers and access them via bash:
 
