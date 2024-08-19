@@ -4,8 +4,10 @@ Take a look into spark structure streaming that can connect to Kafka and process
 - Different output modes, something specific to stream applications, and how each one can be used.
 - Aggregations with time windows, one of the main capabilities of stream processing.
 
-### Run a container to execute bash commands inside it 
+### Run a container and execute bash commands inside it 
 ```bash
+docker compose up
+docker ps -a
 docker exec -it <container_id or name> bash
 ```
 
