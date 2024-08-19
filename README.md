@@ -6,7 +6,7 @@ This project demonstrates how to analyze traffic data using Apache Kafka and Apa
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Run a Container and Execute Bash Commands](#run-a-container-and-execute-bash-commands)
+- [Run a Container and Execute Bash Commands](#Run-a-container-and-execute-bash-commands)
 - [Setup Test Environment](#setup-test-environment)
   - [Inside the Kafka Container](#inside-the-kafka-container)
   - [Inside the Spark Container](#inside-the-spark-container)
@@ -20,7 +20,7 @@ This project includes:
 - Understanding different output modes specific to streaming applications and how each can be used.
 - Performing aggregations with time windows, a key capability of stream processing.
 
-## run-a-container-and-execute-bash-commands
+## Run-a-container-and-execute-bash-commands
 
 To start the containers and access them via bash:
 
