@@ -88,7 +88,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 streami
 
 ### Execute a general job
 spark-submit --master spark://spark:7077 --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 <<job.py>>
-
+```
 
 
 ### Explanation:
