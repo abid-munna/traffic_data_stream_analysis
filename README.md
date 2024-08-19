@@ -8,9 +8,9 @@ This project demonstrates how to analyze traffic data using Apache Kafka and Apa
 - [Project Overview](#project-overview)
 - [Run a Container and Execute Bash Commands](#Run-a-container-and-execute-bash-commands)
 - [Setup Test Environment](#setup-test-environment)
-  - [Inside the Kafka Container](#inside-the-kafka-container)
-  - [Inside the Spark Container](#inside-the-spark-container)
-- [Setup Traffic Sensor Topic](#setup-traffic-sensor-topic)
+  - [Inside the Kafka Container](#Inside-the-kafka-container)
+  - [Inside the Spark Container](#Inside-the-spark-container)
+- [Setup Traffic Sensor Topic](#traffic_sensor_topic)
 - [Running Spark Jobs](#running-spark-jobs)
 
 ## Project Overview
@@ -38,7 +38,7 @@ docker exec -it <container_id or name> bash
 ```
 
 ### Setup test environment
-### Inside the kafka container:
+### Inside-the-kafka-container:
 
 ```bash
 
@@ -50,7 +50,7 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 --topic test_topic -
 ```
 
 
-### Inside the spark container:
+### Inside-the-spark-container:
   ```bash
 cd /src
 ### Convert the jsons into parquet file
@@ -70,7 +70,7 @@ spark-submit --deploy-mode client --master spark://spark:7077 --driver-memory 2G
 ### Setup traffic_sensor topic
 ```
 ### Inside the kafka container :
-#### traffic_sensor topic:
+#### traffic_sensor_topic
 ```bash
 kafka-topics.sh --create --replication-factor 1 --bootstrap-server localhost:9092 --topic traffic_sensor
 
