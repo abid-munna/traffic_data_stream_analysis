@@ -10,7 +10,7 @@ This project demonstrates how to analyze traffic data using Apache Kafka and Apa
 - [Setup Test Environment](#Setup-test-environment)
   - [Inside the Kafka Container](#Inside-the-kafka-container)
   - [Inside the Spark Container](#Inside-the-spark-container)
-- [Setup Traffic Sensor Topic](#traffic_sensor_topic)
+  - [Setup Traffic Sensor Topic](#traffic_sensor_topic)
 
 
 ## Project Overview
