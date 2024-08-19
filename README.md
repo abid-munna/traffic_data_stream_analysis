@@ -7,7 +7,7 @@ This project demonstrates how to analyze traffic data using Apache Kafka and Apa
 
 - [Project Overview](#project-overview)
 - [Run a Container and Execute Bash Commands](#Run-a-container-and-execute-bash-commands)
-- [Setup Test Environment](#setup-test-environment)
+- [Setup Test Environment](#Setup-test-environment)
   - [Inside the Kafka Container](#Inside-the-kafka-container)
   - [Inside the Spark Container](#Inside-the-spark-container)
 - [Setup Traffic Sensor Topic](#traffic_sensor_topic)
@@ -28,16 +28,10 @@ To start the containers and access them via bash:
 docker compose up
 docker ps -a
 docker exec -it <container_id or name> bash
-
-
-### Run a container and execute bash commands inside it 
-```bash
-docker compose up
-docker ps -a
-docker exec -it <container_id or name> bash
 ```
 
-### Setup test environment
+
+## Setup-test-environment
 ### Inside-the-kafka-container:
 
 ```bash
