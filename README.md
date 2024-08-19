@@ -1,4 +1,7 @@
-docker exec -it <> /bin/bash 
+### Run a container to execute bash commands inside it
+```bash
+docker exec -it <container_id or name> bash
+```
 
 ### Setup test environment
 ### Inside the kafka container:
