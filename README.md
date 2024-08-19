@@ -1,8 +1,34 @@
-## Traffic Data Streame Analysis using Kafja Spark(pyspark), Docker 
-Take a look into spark structure streaming that can connect to Kafka and process its messages, 
-- how to populate, consume, and process Kafka topics using Spark jobs. 
-- Different output modes, something specific to stream applications, and how each one can be used.
-- Aggregations with time windows, one of the main capabilities of stream processing.
+# Traffic Data Stream Analysis 
+#### Using Kafka, Spark, Docker in Python
+
+This project demonstrates how to analyze traffic data using Apache Kafka and Apache Spark within a Dockerized environment. The focus is on connecting Spark Structured Streaming to Kafka for processing real-time data and performing various operations like windowed aggregations.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Run a Container and Execute Bash Commands](#run-a-container-and-execute-bash-commands)
+- [Setup Test Environment](#setup-test-environment)
+  - [Inside the Kafka Container](#inside-the-kafka-container)
+  - [Inside the Spark Container](#inside-the-spark-container)
+- [Setup Traffic Sensor Topic](#setup-traffic-sensor-topic)
+- [Running Spark Jobs](#running-spark-jobs)
+
+## Project Overview
+
+This project includes:
+- Populating, consuming, and processing Kafka topics using Spark jobs.
+- Understanding different output modes specific to streaming applications and how each can be used.
+- Performing aggregations with time windows, a key capability of stream processing.
+
+## Run a Container and Execute Bash Commands
+
+To start the containers and access them via bash:
+
+```bash
+docker compose up
+docker ps -a
+docker exec -it <container_id or name> bash
+
 
 ### Run a container and execute bash commands inside it 
 ```bash
