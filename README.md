@@ -1,4 +1,4 @@
-## Traffic Data Streame Analysis 
+## Traffic Data Streame Analysis using Kafja Spark(pyspark), Docker 
 Take a look into spark structure streaming that can connect to Kafka and process its messages, 
 - how to populate, consume, and process Kafka topics using Spark jobs. 
 - Different output modes, something specific to stream applications, and how each one can be used.
