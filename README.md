@@ -69,6 +69,7 @@ spark-submit --deploy-mode client --master spark://spark:7077 --driver-memory 2G
 kafka-topics.sh --create --replication-factor 1 --bootstrap-server localhost:9092 --topic traffic_sensor
 
 kafka-console-consumer.sh --topic traffic_sensor --bootstrap-server localhost:9092
+
 ```
 #### traffic_sensor_topic
 ```bash
